@@ -1,0 +1,214 @@
+2021-01-31 18:29:57,485 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2021-01-31 18:29:58,040 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-01-31 18:29:58,048 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-01-31 18:29:58,162 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 22.0.0.Final (WildFly Core 14.0.0.Final) starting
+2021-01-31 18:29:58,164 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.headless = true
+	java.class.path = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/jboss-modules.jar
+	java.class.version = 59.0
+	java.home = /usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/w2/fsjwy4z14pq5_wq8340cxbv00000gq/T/
+	java.library.path = /Users/lauracortes/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 15.0.1+9
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 15
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = N/A
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 15.0.1
+	java.version.date = 2020-10-20
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 15
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 15.0.1+9
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final
+	jboss.host.name = imac-de-ricardo
+	jboss.modules.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = imac-de-ricardo
+	jboss.qualified.host.name = imac-de-ricardo
+	jboss.server.base.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone
+	jboss.server.config.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/log
+	jboss.server.name = imac-de-ricardo
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/modules
+	org.jboss.boot.log.file = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.15.7
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/jboss-modules.jar -mp /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final -Djboss.server.base.dir=/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone -Djboss.server.log.dir=/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/log -Djboss.server.config.dir=/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	user.country = CO
+	user.dir = /Users/lauracortes/eclipse-workspace/api
+	user.home = /Users/lauracortes
+	user.language = es
+	user.name = lauracortes
+	user.timezone = America/Bogota
+2021-01-31 18:29:58,166 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-modules=java.se -Dorg.jboss.boot.log.file=/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/configuration/logging.properties 
+2021-01-31 18:29:58,934 INFO  [org.wildfly.security] (ServerService Thread Pool -- 26) ELY00001: WildFly Elytron version 1.14.1.Final
+2021-01-31 18:29:59,497 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-01-31 18:29:59,533 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-01-31 18:29:59,629 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-01-31 18:29:59,642 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.4.Final
+2021-01-31 18:29:59,649 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.4.Final
+2021-01-31 18:29:59,686 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-01-31 18:29:59,693 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.20.Final
+2021-01-31 18:29:59,710 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 52) WFLYHEALTH0001: Activating Base Health Subsystem
+2021-01-31 18:29:59,713 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-01-31 18:29:59,715 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 54) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2021-01-31 18:29:59,747 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 64) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
+2021-01-31 18:29:59,750 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 63) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-01-31 18:29:59,762 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 60) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-01-31 18:29:59,778 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
+2021-01-31 18:29:59,779 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 65) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2021-01-31 18:29:59,784 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 55) WFLYRS0016: RESTEasy version 3.14.0.Final
+2021-01-31 18:29:59,786 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2021-01-31 18:29:59,793 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) WFLYSEC0002: Activating Security Subsystem
+2021-01-31 18:29:59,795 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-01-31 18:29:59,813 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2021-01-31 18:29:59,814 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar @VERSION@)
+2021-01-31 18:29:59,821 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2021-01-31 18:29:59,826 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2021-01-31 18:29:59,830 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-01-31 18:29:59,880 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file '/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2021-01-31 18:29:59,907 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.2.3.Final starting
+2021-01-31 18:29:59,908 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-01-31 18:29:59,992 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY01084: KeyStore /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2021-01-31 18:30:00,009 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2021-01-31 18:30:00,009 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path '/Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-01-31 18:30:00,011 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2021-01-31 18:30:00,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2021-01-31 18:30:00,067 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2021-01-31 18:30:00,182 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-01-31 18:30:00,213 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
+2021-01-31 18:30:00,274 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-01-31 18:30:00,541 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2021-01-31 18:30:00,579 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-01-31 18:30:00,595 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/deployments
+2021-01-31 18:30:00,648 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-01-31 18:30:00,864 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.4.2.Final (Apache CXF 3.3.7) 
+2021-01-31 18:30:01,071 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-01-31 18:30:01,074 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 22.0.0.Final (WildFly Core 14.0.0.Final) started in 4202ms - Started 318 of 557 services (345 services are lazy, passive or on-demand)
+2021-01-31 18:30:01,075 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-01-31 18:30:01,076 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-01-31 18:30:01,867 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /Users/lauracortes/eclipse-workspace/api/target/wildfly-22.0.0.Final/standalone/data/content/30/7c75cd84900e3f33b508388875c1d3289f22a9/content
+2021-01-31 18:30:01,887 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "api-0.0.1-SNAPSHOT.war" (runtime-name: "api-0.0.1-SNAPSHOT.war")
+2021-01-31 18:30:04,234 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.8.Final
+2021-01-31 18:30:04,297 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-01-31 18:30:04,298 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-01-31 18:30:04,446 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-01-31 18:30:04,810 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-01-31 18:30:05,896 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 34) RESTEASY002225: Deploying javax.ws.rs.core.Application: class api.API
+2021-01-31 18:30:05,933 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 34) HV000001: Hibernate Validator 6.0.22.Final
+2021-01-31 18:30:06,012 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 34) WFLYUT0021: Registered web context: '/api-0.0.1-SNAPSHOT' for server 'default-server'
+2021-01-31 18:30:06,156 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "api-0.0.1-SNAPSHOT.war" (runtime-name : "api-0.0.1-SNAPSHOT.war")
+2021-01-31 18:31:03,649 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /api-0.0.1-SNAPSHOT/queue/push: org.jboss.resteasy.spi.UnhandledException: redis.clients.jedis.exceptions.JedisDataException: value sent to redis cannot be null
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:82)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:346)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:193)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:457)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:229)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:135)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:138)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:215)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:245)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:61)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at javax.servlet.api@2.0.0.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.core@2.2.3.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.2.3.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.2.3.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.2.3.Final//io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.core@2.2.3.Final//io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.core@2.2.3.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.core@2.2.3.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.2.3.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.2.3.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow@22.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet@2.2.3.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.core@2.2.3.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.core@2.2.3.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.4.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: redis.clients.jedis.exceptions.JedisDataException: value sent to redis cannot be null
+	at deployment.api-0.0.1-SNAPSHOT.war//redis.clients.util.SafeEncoder.encode(SafeEncoder.java:28)
+	at deployment.api-0.0.1-SNAPSHOT.war//redis.clients.util.SafeEncoder.encodeMany(SafeEncoder.java:20)
+	at deployment.api-0.0.1-SNAPSHOT.war//redis.clients.jedis.Client.lpush(Client.java:230)
+	at deployment.api-0.0.1-SNAPSHOT.war//redis.clients.jedis.Jedis.lpush(Jedis.java:881)
+	at deployment.api-0.0.1-SNAPSHOT.war//api.Push.addMessage(Push.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:138)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:546)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:435)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:396)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:398)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:365)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:338)
+	at org.jboss.resteasy.resteasy-jaxrs@3.14.0.Final//org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:440)
+	... 53 more
+
