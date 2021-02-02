@@ -8,15 +8,21 @@ El proyecto utiliza Maven para el manejo de librerías y WildFly 22.0.0 como ser
 mvn clean
 mvn install wildfly:run
 ```
-Por último, no olvide ejecutar el servidor Redis con modo Standalone:
+Por último, no olvide ejecutar el servidor Redis en modo Standalone:
 ```
 redis-server
 ```
+### Autenticación a la API
+Utilizando la librería JBoss RESTEasy se implementa un <i>"Security Interceptor"</i> básico. Para acceder a los servicios expuestos por la API agregue en la petición HTTP las siguientes credenciales básicas de autenticación:
+```
+User: admin
+Password: admin
+```
 
 ## Métodos de la API
-Los métodos implementados cumplen el siguiente contrato:
+Los métodos en la API cumplen con el siguiente contrato:
 ### PUSH
-Agrega mensajes al final de la cola de mensaje
+Agregar mensajes al final de la cola de mensaje
 <table>
   <tr>
     <th>HTTP Method</th>
