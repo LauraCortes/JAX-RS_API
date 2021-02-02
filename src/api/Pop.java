@@ -1,5 +1,6 @@
 package api;
 
+import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -18,6 +19,7 @@ public class Pop {
 	 * Método para obtener el primer mensaje de la cola 'queue'
 	 * @return El primer mensaje, si la cola esta vacía retorna status 500.
 	 */
+	@RolesAllowed("ADMIN")
 	@POST
 	public Response getMessage() {
 		try {

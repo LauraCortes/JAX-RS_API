@@ -1,4 +1,5 @@
 api/Push.class
+api/SecurityAuth.class
 api/Count.class
 api/Pop.class
 api/Mensaje.class

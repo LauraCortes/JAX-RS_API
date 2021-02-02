@@ -1,5 +1,6 @@
 package api;
 
+import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.Consumes; 
 import javax.ws.rs.GET; 
 import javax.ws.rs.Path; 
@@ -18,6 +19,7 @@ public class Count {
 	 * Método para consultar el tamaño de la cola 'queue' en el servidor Redis.
 	 * @return El tamaño de la cola 'queue' o 0 si no existe.
 	 */
+	@RolesAllowed("ADMIN")
 	@GET  
     public Response sizeQueue() {  
 		try {

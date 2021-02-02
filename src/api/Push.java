@@ -1,6 +1,7 @@
 package api;
 
 
+import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -21,7 +22,7 @@ public class Push {
 	 * @param message que se va a incluir en la cola
 	 * @return El mensaje que se incluyó e la cola o la excepción al intentarlo.
 	 */
-	
+	@RolesAllowed("ADMIN")
 	@POST
 	public Response addMessage(Mensaje message) {
 		try 
