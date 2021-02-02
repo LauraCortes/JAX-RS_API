@@ -1,14 +1,20 @@
 # JAX-RS_API
-Implementación de un API en JAX-RS que permite abstraer funcionalidades de una cola de mensajes en Redis. Los métodos implementados cumplen el siguiente contrato:
+Implementación de un API en JAX-RS que permite abstraer funcionalidades de una cola de mensajes en Redis, utilizando la librería Jedis.
 
 ## Ejecución de la API
 El proyecto utiliza Maven para el manejo de librerías y WildFly 22.0.0 como servidor de aplicación. Para desplegar la aplicación ejecute:
 
-```mvn clean
+```
+mvn clean
 mvn install wildfly:run
+```
+Por último, no olvide ejecutar el servidor Redis con modo Standalone:
+```
+redis-server
 ```
 
 ## Métodos de la API
+Los métodos implementados cumplen el siguiente contrato:
 ### PUSH
 Agrega mensajes al final de la cola de mensaje
 <table>
