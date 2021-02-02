@@ -31,7 +31,7 @@ public class Push {
 			Jedis jedis = new Jedis("localhost");
 			
 			//Agrega al final de la cola el mensaje que llega por parámetro
-			jedis.lpush("queue",message.getMessage());
+			jedis.rpush("queue",message.getMessage());
 			
 			//Cierra la conexión con el servidor Redis
 			jedis.close();
@@ -41,7 +41,7 @@ public class Push {
 		}
 		catch(JedisDataException e)
 		{
-			return Response.status(404).entity(e).type(MediaType.APPLICATION_JSON).build();
+			return Response.status(404).entity("{\"message\":\"Los atributos no están correctamente definidos.\"").type(MediaType.APPLICATION_JSON).build();
 		}
 		catch(Exception e2){
 			return Response.status(500).entity(e2).type(MediaType.APPLICATION_JSON).build();

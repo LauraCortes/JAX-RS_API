@@ -37,7 +37,7 @@ public class Pop {
 			return Response.ok("{\"message\":\""+firstItem+"\"}",MediaType.APPLICATION_JSON).build(); 
 		}
 		catch(Exception e2){
-			return Response.status(500).entity("No hay elementos en la cola.").type(MediaType.APPLICATION_JSON).build();
+			return Response.status(500).entity("{\"message\":\"No hay elementos en la cola.\"").type(MediaType.APPLICATION_JSON).build();
 		}
 	}
 }
