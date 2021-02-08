@@ -3,11 +3,11 @@ Implementación de un API en JAX-RS que permite abstraer funcionalidades de una 
 
 ## Prerequisitos para la ejecución
 Antes de iniciar con el despliegue de la API asegurese de tener instalados los siguientes componentes:
-<li><ul>
+<ul><li>
 Para compilar el proyecto y resolver las dependencias descargue <a href="https://maven.apache.org/download.cgi">Maven</a>. Para confirmar la instalación, ejecute en la línea de comandos <i>mvn -v</i>, debe retornar la versión de Maven que ha instalado.
-</ul>
-  <ul>Descargue e instale la versión estable de <a href="https://redis.io/download">Redis</a>, el broker de mensajes Open-Source que utilizará la API.</ul>  
 </li>
+  <li>Descargue e instale la versión estable de <a href="https://redis.io/download">Redis</a>, el broker de mensajes Open-Source que utilizará la API.</li>  
+</ul>
 
 ## Ejecución de la API
 Para desplegar el servidor Redis en modo Standalone, en una línea de comandos ejecute:
