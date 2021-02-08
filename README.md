@@ -53,7 +53,7 @@ Usted podrá observar que se inicia una instancia de Wildfly en standalone y que
 ```
 
 ### Consumir servicios de la API
-Para consumir los servicios de la API recomiendo utilizar la extensión de Google Chrome API Tester. Para acceder a los servicios, según el contrato de métodos definido más adelante, utilice el contexto web: HTTP://127.0.0.1:8080/api-0.0.1-SNAPSHOT/queue/[servicio]</br>
+Para consumir los servicios de la API recomiendo utilizar la extensión de Google Chrome <a href="https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?hl=en">API Tester</a>. Para acceder a los servicios, según el contrato de métodos definido más adelante, utilice el contexto web: HTTP://127.0.0.1:8080/api-0.0.1-SNAPSHOT/queue/[servicio]</br>
 Al intentar acceder, seguramente obtuvo el mensaje <i>"Ingrese información de autenticación"</i>. Utilizando la librería JBoss RESTEasy se implementa un <i>"Security Interceptor"</i> básico. Utilice la opción "Add authorization" en los encabezados de la petición HTTP para incluir las siguientes credenciales básicas:
 ```
 User: admin
